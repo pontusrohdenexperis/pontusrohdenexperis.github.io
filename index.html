@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/IndexCss.css">
+</head>
+
+<body>
+    <div id="nav">
+        <h1>Welcome to Komputor Wurld!</h1>
+    </div>
+    <div id="laptopStore">
+        <div name="laptop" id="laptop">
+            <div id="computerInfo">
+                <select name="laptops" id="laptops"></select>
+                <h2 name="title" id="title"></h2>
+                <h3 name="description" id="description"></h3>
+                <ul name="specs" id="specs"></ul>
+                <p name="price" id="price"></p>
+            </div>
+
+            <div id="imageAndButton">
+                <img name="image" id="image" onerror="this.src='resources/image-not-found.png';" width="360"
+                    height="180">
+                <button name="buyLaptopButton" id="buyLaptopButton">Buy Laptop</button>
+            </div>
+        </div>
+
+        <div id="moneyDiv">
+            <div name="bank" id="bank">
+                <h2>Bank</h2>
+                <p name="balance" id="balance"></p>
+                <p name="outstandingLoan" id="outstandingLoan" style="display: none;"></p>
+                <button name="getLoanButton" id="getLoanButton">Get loan</button>
+            </div>
+
+            <div name="work" id="work">
+                <h2>Work</h2>
+                <p name="pay" id="pay"></p>
+                <button name="bankButton" id="bankButton">Bank</button>
+                <button name="workButton" id="workButton">Work</button>
+                <button name="paybackButton" id="paybackButton" style="display: none">Pay loan</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/Laptops.js"></script>
+    <script src="static/js/Bank.js"></script>
+    <script src="static/js/Work.js"></script>
+</body>
+
+</html>

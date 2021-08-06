@@ -1,0 +1,84 @@
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+    background-color: #4caf4fc7;
+}
+#buyLaptopButton {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+li {
+    margin-right: 20px;
+}
+#nav {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    height: 10vh;
+    width: 100vw;
+    background-color: #357937c7;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#laptopStore {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+}
+#laptop {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e2e2e2;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#laptopInfo {
+    flex-direction: column;
+}
+#specs {
+    max-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#imageAndButton {
+    display: flex;
+    flex-direction: column;
+}
+#moneyDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#bank {
+    margin: 10px;
+    padding: 20px;
+    width: 40vw;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#work {
+    margin: 10px;
+    padding: 20px;
+    width: 40vw;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
